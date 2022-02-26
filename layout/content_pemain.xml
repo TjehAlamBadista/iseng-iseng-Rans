@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skuad Saat Ini :"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 - GK - Indonesia - Fikri Ntong"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 - DF - Indonesia - Hendra Wijaya"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 - DF - Indonesia - Anan Lestaluhu"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 - DF - Indonesia - Saddam Hi Tenang"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6 - MF - Indonesia - Asri Akbar"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7 - FW - Indonesia - Syamsir Alam"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9 - MF - Indonesia - Rizki Hidayat"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 - FW - Indonesia - Cristian Gonzáles"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11 - MF - Indonesia - Gamalia Imbiri"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12 - FW - Indonesia - Jujun Junaedi"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13 - DF - Indonesia - Kurniawan Karman"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15 - MF - Indonesia - Fadilla Akbar"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="17 - MF - Indonesia - Tegar Infantrie"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18 - FW - Indonesia - Andre Batistuta"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19 - DF - Indonesia - Sumarna"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21 - MF - Indonesia - Zidane Pattiiha"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23 - DF - Indonesia - Hamka Hamzah (captain)"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="26 - MF - Indonesia - Ilhamsyah (pinjaman dari Borneo)"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="28 - DF - Indonesia - Boas Isir"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="29 - DF - Indonesia - Mifathul Ikhsan (pinjaman dari Borneo)"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30 - MF - Indonesia - Tarik El Janaby"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="31 - GK - Indonesia - Yoga Tri Septyan"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="32 - MF - Indonesia - Ramdani Tawainella"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="44 - MF - Indonesia - Bima Ragil"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="86 - GK - Indonesia - Sandy Firmansyah"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="87 - DF - Indonesia - Makarius Suruan"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="88 - MF - Indonesia - Ikhsan Zikrak"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="96 - GK - Indonesia - Kartika Ajie (pinjaman dari Arema)"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="98 - DF - Indonesia - Wahyudi"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

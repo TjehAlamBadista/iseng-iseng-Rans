@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Official :"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chairman - Raffi Ahmad"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chairman - Rudy Salim"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chairman - Rajiv Singh"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Direktur Operasional - Darius Sinathrya"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Direktur Teknik - Bambang Nurdiansyah"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengawas Klub - Yudhi Apriyanto"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Presiden Klub - Roofi Adrian"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manajer Tim - Hamka Hamzah"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelatih Kepala - Rahmad Darmawan"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Asisten Pelatih -  Mohammad Nasuha"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Asisten Pelatih - Bayu Eka Sari"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelatih Kiper - Yanuar Hermansyah"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelatih Fisik - Nurcholis Majid"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dokter Tim - dr. Febianto Nurmansyach"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fisioterapis - Siswo Yuliono"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
